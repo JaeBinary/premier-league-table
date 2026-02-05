@@ -1,35 +1,80 @@
 import pandas as pd
 import requests
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import json
-import os
 
-# 1. EPL API 데이터 가져오기
-url = "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v5/competitions/8/seasons/2025/standings"
-data = requests.get(url).json()
-matchweek = int(data['matchweek'])
-
-# 2. 구글 시트 인증 (GitHub Secrets에서 가져올 예정)
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-# 로컬 테스트 시에는 json 파일을 읽고, 서버(GitHub)에서는 환경변수에서 읽음
-creds_json = os.environ.get('GSPREAD_CREDENTIALS')
-creds = ServiceAccountCredentials.from_json_keyfile_dict(json.loads(creds_json), scope)
-client = gspread.authorize(creds)
-
-# 3. 시트 열기
-sheet = client.open("EPL_Standings_2025").get_worksheet(0)
-
-# 4. 중복 체크 및 데이터 추가
-existing_matchweeks = sheet.col_values(1) # 첫 번째 컬럼(Matchweek) 확인
-
-if str(matchweek) in existing_matchweeks:
-    print(f"{matchweek}주차 데이터가 이미 존재합니다. 업데이트를 중단합니다.")
-else:
-    rows_to_add = []
-    for entry in data['tables'][0]['entries']:
-        stats = entry['overall']
-        rows_to_add.append([matchweek, entry['team']['name'], stats['points'], stats['position'], stats['played']])
+def extract_full_epl_data():
+    url = "https://sdp-prem-prod.premier-league-prod.pulselive.com/api/v5/competitions/8/seasons/2025/standings"
+    headers = {"User-Agent": "Mozilla/5.0"}
     
-    sheet.append_rows(rows_to_add)
-    print(f"{matchweek}주차 데이터가 성공적으로 추가되었습니다.")
+    response = requests.get(url, headers=headers)
+    data = response.json()
+
+    # 공통 정보 (모든 행에 동일하게 들어갈 메타데이터)
+    matchweek = data.get("matchweek")           # 현재 진행 중인 라운드 번호
+    season_name = data.get("season", {}).get("name") # 시즌 명칭 (예: Season 2025/2026)
+    
+    all_rows = []
+
+    for entry in data['tables'][0]['entries']:
+        team = entry['team']
+        ovr = entry['overall']
+        home = entry['home']
+        away = entry['away']
+
+        row = {
+            # --- 기본 및 팀 정보 ---
+            "Season": season_name,              # 시즌 (데이터 구분용)
+            "Matchweek": matchweek,             # 라운드 (시계열 분석의 핵심 축)
+            "Team": team['name'],               # 팀 전체 이름 (예: Arsenal)
+            "Abbr": team['abbr'],               # 팀 약어 (예: ARS)
+            
+            # --- 종합 성적 (Overall Standings) ---
+            "Pos": ovr['position'],             # 현재 전체 순위
+            "Start_Pos": ovr['startingPosition'], # 해당 라운드 시작 전 순위 (순위 변동 추적용)
+            "P": ovr['played'],                 # 전체 경기 수
+            "W": ovr['won'],                    # 전체 승리 수
+            "D": ovr['drawn'],                  # 전체 무승부 수
+            "L": ovr['lost'],                   # 전체 패배 수
+            "GF": ovr['goalsFor'],              # 전체 득점 (Goals For)
+            "GA": ovr['goalsAgainst'],          # 전체 실점 (Goals Against)
+            "GD": ovr['goalsFor'] - ovr['goalsAgainst'], # 전체 득실차 (Goal Difference)
+            "Pts": ovr['points'],               # 전체 승점 (Points)
+
+            # --- 홈 성적 (Home Records) ---
+            "H_Pos": home['position'],          # 홈 경기 기준 순위
+            "H_P": home['played'],              # 홈 경기 수
+            "H_W": home['won'],                 # 홈 승리
+            "H_D": home['drawn'],               # 홈 무승부
+            "H_L": home['lost'],                # 홈 패배
+            "H_GF": home['goalsFor'],           # 홈 득점
+            "H_GA": home['goalsAgainst'],       # 홈 실점
+            "H_GD": home['goalsFor'] - home['goalsAgainst'], # 홈 득실차
+            "H_Pts": home['points'],            # 홈 승점
+
+            # --- 원정 성적 (Away Records) ---
+            "A_Pos": away['position'],          # 원정 경기 기준 순위
+            "A_P": away['played'],              # 원정 경기 수
+            "A_W": away['won'],                 # 원정 승리
+            "A_D": away['drawn'],               # 원정 무승부
+            "A_L": away['lost'],                # 원정 패배
+            "A_GF": away['goalsFor'],           # 원정 득점
+            "A_GA": away['goalsAgainst'],       # 원정 실점
+            "A_GD": away['goalsFor'] - away['goalsAgainst'], # 원정 득실차
+            "A_Pts": away['points']             # 원정 승점
+        }
+        all_rows.append(row)
+
+    return pd.DataFrame(all_rows)
+
+# 데이터프레임 생성 및 확인
+df = extract_full_epl_data()
+print(df)
+
+"""
+Number (decimal)  //실수
+Number (whole)    //정수
+Date & Time
+Date
+String
+Spatial
+Boolean
+"""
