@@ -1,0 +1,3020 @@
+{
+  "matchInfo": {
+    "id": "34oxxtv9gbzl6xcda8ldgnz84",
+    "opId": "2562085",
+    "coverageLevel": "13",
+    "date": "2026-01-03Z",
+    "time": "17:30:00Z",
+    "localDate": "2026-01-03",
+    "localTime": "17:30:00",
+    "week": "20",
+    "numberOfPeriods": 2,
+    "periodLength": 45,
+    "var": "1",
+    "lastUpdated": "2026-02-11T11:25:50Z",
+    "description": "AFC Bournemouth vs Arsenal",
+    "sport": {
+      "id": "289u5typ3vp4ifwh5thalohmq",
+      "name": "Soccer"
+    },
+    "ruleset": {
+      "id": "79plas4983031idr6vw83nuel",
+      "name": "Men"
+    },
+    "competition": {
+      "id": "2kwbbcootiqqgmrzs6o5inle5",
+      "opId": "8",
+      "name": "Premier League",
+      "knownName": "English Premier League",
+      "competitionCode": "EPL",
+      "competitionFormat": "Domestic league",
+      "country": {
+        "id": "1fk5l4hkqk12i7zske6mcqju6",
+        "name": "England"
+      }
+    },
+    "tournamentCalendar": {
+      "id": "51r6ph2woavlbbpk8f29nynf8",
+      "startDate": "2025-08-15Z",
+      "endDate": "2026-05-24Z",
+      "name": "2025/2026"
+    },
+    "stage": {
+      "id": "52mas07a9lsy28lwm6egrtqfo",
+      "formatId": "e2q01r9o9jwiq1fls93d1sslx",
+      "startDate": "2025-08-15Z",
+      "endDate": "2026-05-24Z",
+      "name": "Regular Season"
+    },
+    "contestant": [
+      {
+        "id": "1pse9ta7a45pi2w2grjim70ge",
+        "opId": "91",
+        "name": "AFC Bournemouth",
+        "shortName": "Bournemouth",
+        "officialName": "AFC Bournemouth",
+        "code": "BOU",
+        "position": "home",
+        "country": {
+          "id": "1fk5l4hkqk12i7zske6mcqju6",
+          "name": "England"
+        }
+      },
+      {
+        "id": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opId": "3",
+        "name": "Arsenal",
+        "shortName": "Arsenal",
+        "officialName": "Arsenal FC",
+        "code": "ARS",
+        "position": "away",
+        "country": {
+          "id": "1fk5l4hkqk12i7zske6mcqju6",
+          "name": "England"
+        }
+      }
+    ],
+    "venue": {
+      "id": "8vnu2g41orfaa25n2djgrv4jm",
+      "neutral": "no",
+      "longName": "Vitality Stadium",
+      "shortName": "Vitality Stadium",
+      "latitude": "50.735240532",
+      "longitude": "-1.838309616"
+    }
+  },
+  "liveData": {
+    "matchDetails": {
+      "periodId": 14,
+      "matchStatus": "Played",
+      "winner": "away",
+      "matchLengthMin": 98,
+      "matchLengthSec": 25,
+      "period": [
+        {
+          "id": 1,
+          "start": "2026-01-03T17:30:38Z",
+          "end": "2026-01-03T18:17:48Z",
+          "lengthMin": 47,
+          "lengthSec": 10,
+          "announcedInjuryTime": 120
+        },
+        {
+          "id": 2,
+          "start": "2026-01-03T18:33:48Z",
+          "end": "2026-01-03T19:25:03Z",
+          "lengthMin": 51,
+          "lengthSec": 15,
+          "announcedInjuryTime": 360
+        }
+      ],
+      "scores": {
+        "ht": {
+          "home": 1,
+          "away": 1
+        },
+        "ft": {
+          "home": 2,
+          "away": 3
+        },
+        "total": {
+          "home": 2,
+          "away": 3
+        }
+      }
+    },
+    "predictions": [
+      {
+        "type": "Momentum",
+        "timeMin": 97,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01742"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01511"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00231"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 96,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01328"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02596"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01269"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 95,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02655"
+          },
+          {
+            "type": "Away",
+            "probability": "0.04740"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.02085"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 94,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00835"
+          },
+          {
+            "type": "Away",
+            "probability": "0.09351"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.08515"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 93,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00562"
+          },
+          {
+            "type": "Away",
+            "probability": "0.03773"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.03210"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 92,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00604"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02521"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01918"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 91,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01208"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01124"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00084"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 90,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00808"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02161"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01353"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 89,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00405"
+          },
+          {
+            "type": "Away",
+            "probability": "0.03447"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.03042"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 88,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00289"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01197"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00908"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 87,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00578"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01078"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00500"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 86,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00230"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02036"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01807"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 85,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00412"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00822"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00409"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 84,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00747"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01248"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00501"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 83,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01089"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02496"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01407"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 82,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00722"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00390"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00333"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 81,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00927"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00364"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00564"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 80,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01855"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00727"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01128"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 79,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01563"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00367"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01197"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 78,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01450"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00153"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01297"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 77,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01416"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00250"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01166"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 76,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00600"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00481"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00119"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 75,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00985"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00654"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00330"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 74,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01553"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00885"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00668"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 73,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00771"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01222"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00451"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 72,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00703"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02322"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01618"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 71,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01407"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00592"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00815"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 70,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00618"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00723"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00105"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 69,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00318"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00850"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00532"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 68,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00118"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01081"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00963"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 67,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00236"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01757"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01521"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 66,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00472"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02704"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.02232"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 65,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00411"
+          },
+          {
+            "type": "Away",
+            "probability": "0.05404"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.04993"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 64,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00492"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02124"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01632"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 63,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00333"
+          },
+          {
+            "type": "Away",
+            "probability": "0.04249"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.03915"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 62,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00619"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01631"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01012"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 61,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01185"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00273"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00911"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 60,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02350"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00348"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.02002"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 59,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.04609"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00569"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.04039"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 58,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00951"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00512"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00440"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 57,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00716"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00871"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00155"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 56,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00693"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01743"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01049"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 55,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00190"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02248"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.02058"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 54,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00381"
+          },
+          {
+            "type": "Away",
+            "probability": "0.04501"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.04120"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 53,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00718"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00701"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00016"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 52,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00534"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01192"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00658"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 51,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01077"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02204"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01127"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 50,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02189"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02953"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00765"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 49,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00210"
+          },
+          {
+            "type": "Away",
+            "probability": "0.06103"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.05893"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 48,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00397"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01016"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00619"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 47,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00041"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00708"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00667"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 46,
+        "timeMinSec": 0,
+        "periodId": 2,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00122"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00424"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00302"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 48,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00136"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02314"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.02178"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 47,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00243"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01371"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01128"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 46,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00271"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00759"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00488"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 45,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00389"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01412"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01023"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 44,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00572"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00591"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00018"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 43,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01103"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01148"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00044"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 42,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01905"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02168"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00264"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 41,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.03809"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00518"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.03291"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 40,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00264"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01004"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00740"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 39,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00468"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00964"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00496"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 38,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00938"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01927"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00989"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 37,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01728"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00369"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01359"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 36,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.03455"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00321"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.03135"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 35,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02838"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00151"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.02687"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 34,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.04865"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00168"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.04697"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 33,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02165"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00309"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01856"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 32,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.03901"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00354"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.03547"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 31,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.07803"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00708"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.07094"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 30,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00236"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00978"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00742"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 29,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00342"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00435"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00093"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 28,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00338"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00456"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00118"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 27,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00676"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00147"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00530"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 26,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01352"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00293"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01059"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 25,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02162"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00165"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01997"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 24,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.04129"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00295"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.03834"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 23,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.04942"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00419"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.04523"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 22,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01851"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00454"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01397"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 21,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01043"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00908"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00136"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 20,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00530"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01233"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00703"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 19,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00636"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02337"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01701"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 18,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00231"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02700"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.02468"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 17,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00332"
+          },
+          {
+            "type": "Away",
+            "probability": "0.04583"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.04250"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 16,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00665"
+          },
+          {
+            "type": "Away",
+            "probability": "0.09165"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.08500"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 15,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00295"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01434"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01139"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 14,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00590"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02027"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01438"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 13,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01177"
+          },
+          {
+            "type": "Away",
+            "probability": "0.03983"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.02806"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 12,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01297"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00256"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01041"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 11,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02594"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00484"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.02110"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 10,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00384"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00951"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00567"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 9,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00509"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01351"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00842"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 8,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00707"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02689"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01982"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 7,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.00699"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01314"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.00615"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 6,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01294"
+          },
+          {
+            "type": "Away",
+            "probability": "0.02517"
+          },
+          {
+            "type": "Combined",
+            "probability": "-0.01222"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 5,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01052"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00924"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00128"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 4,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02101"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01442"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00659"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 3,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.04072"
+          },
+          {
+            "type": "Away",
+            "probability": "0.00445"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.03628"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 2,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.01146"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01038"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.00109"
+          }
+        ]
+      },
+      {
+        "type": "Momentum",
+        "timeMin": 1,
+        "timeMinSec": 0,
+        "periodId": 1,
+        "prediction": [
+          {
+            "type": "Home",
+            "probability": "0.02581"
+          },
+          {
+            "type": "Away",
+            "probability": "0.01035"
+          },
+          {
+            "type": "Combined",
+            "probability": "0.01546"
+          }
+        ]
+      }
+    ],
+    "goal": [
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 1,
+        "timeMin": 10,
+        "timeMinSec": "9:58",
+        "lastUpdated": "2026-01-03T17:41:15Z",
+        "timestamp": "2026-01-03T17:40:36Z",
+        "type": "G",
+        "scorerId": "2wl0uylmkzi2ls7v4amgaa1yi",
+        "opScorerId": "444102",
+        "scorerName": "Evanilson",
+        "optaEventId": "2887459543",
+        "homeScore": 1,
+        "awayScore": 0
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 1,
+        "timeMin": 16,
+        "timeMinSec": "15:17",
+        "lastUpdated": "2026-01-03T17:46:56Z",
+        "timestamp": "2026-01-03T17:45:56Z",
+        "type": "G",
+        "scorerId": "8libvn3hxypz8x7gm4mr7kj55",
+        "opScorerId": "226597",
+        "scorerName": "Gabriel Magalhães",
+        "optaEventId": "2887461351",
+        "homeScore": 1,
+        "awayScore": 1
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 2,
+        "timeMin": 54,
+        "timeMinSec": "53:05",
+        "lastUpdated": "2026-01-03T18:42:27Z",
+        "timestamp": "2026-01-03T18:41:54Z",
+        "type": "G",
+        "scorerId": "6jgocc12bori2wygyu07c082x",
+        "opScorerId": "204480",
+        "scorerName": "D. Rice",
+        "assistPlayerId": "b1lcxeihx8z6pfv1jef4j5jh1",
+        "opAssistPlayerId": "184029",
+        "assistPlayerName": "M. Ødegaard",
+        "optaEventId": "2887477371",
+        "homeScore": 1,
+        "awayScore": 2
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 2,
+        "timeMin": 71,
+        "timeMinSec": "70:35",
+        "lastUpdated": "2026-01-03T19:00:01Z",
+        "timestamp": "2026-01-03T18:59:23Z",
+        "type": "G",
+        "scorerId": "6jgocc12bori2wygyu07c082x",
+        "opScorerId": "204480",
+        "scorerName": "D. Rice",
+        "assistPlayerId": "8tc7dcuwdeqbjgt7vw5p38xgq",
+        "opAssistPlayerId": "223340",
+        "assistPlayerName": "B. Saka",
+        "secondAssistPlayerId": "b1lcxeihx8z6pfv1jef4j5jh1",
+        "opSecondAssistPlayerId": "184029",
+        "secondAssistPlayerName": "M. Ødegaard",
+        "optaEventId": "2887481703",
+        "homeScore": 1,
+        "awayScore": 3
+      },
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 2,
+        "timeMin": 76,
+        "timeMinSec": "75:47",
+        "lastUpdated": "2026-01-03T19:05:36Z",
+        "timestamp": "2026-01-03T19:04:35Z",
+        "type": "G",
+        "scorerId": "3f2e9orrwiljklmmzwh2m7uvo",
+        "opScorerId": "560262",
+        "scorerName": "J. Kroupi",
+        "assistPlayerId": "djelmk2oafas355n2u0d1bumt",
+        "opAssistPlayerId": "155408",
+        "assistPlayerName": "L. Cook",
+        "optaEventId": "2887484151",
+        "homeScore": 2,
+        "awayScore": 3
+      }
+    ],
+    "card": [
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 1,
+        "timeMin": 26,
+        "timeMinSec": "25:59",
+        "lastUpdated": "2026-01-03T17:56:45Z",
+        "timestamp": "2026-01-03T17:56:38Z",
+        "type": "YC",
+        "playerId": "7tnuxlg9l4rjhc7j3ko36hduy",
+        "opPlayerId": "437730",
+        "playerName": "A. Semenyo",
+        "optaEventId": "2887464305",
+        "cardReason": "Foul"
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 2,
+        "timeMin": 70,
+        "timeMinSec": "69:21",
+        "lastUpdated": "2026-01-03T18:58:19Z",
+        "timestamp": "2026-01-03T18:58:09Z",
+        "type": "YC",
+        "playerId": "80aqmv4ht6rs1812qrr5j8kix",
+        "opPlayerId": "481655",
+        "playerName": "Martín Zubimendi",
+        "optaEventId": "2887481479",
+        "cardReason": "Time wasting"
+      },
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 2,
+        "timeMin": 80,
+        "timeMinSec": "79:16",
+        "lastUpdated": "2026-01-03T19:08:14Z",
+        "timestamp": "2026-01-03T19:08:05Z",
+        "type": "YC",
+        "playerId": "3f2e9orrwiljklmmzwh2m7uvo",
+        "opPlayerId": "560262",
+        "playerName": "J. Kroupi",
+        "optaEventId": "2887486059",
+        "cardReason": "Foul"
+      },
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 2,
+        "timeMin": 91,
+        "timeMinSec": "90:12",
+        "lastUpdated": "2026-01-03T19:19:28Z",
+        "timestamp": "2026-01-03T19:19:01Z",
+        "type": "YC",
+        "playerId": "8mcf8c8ht32as6xxrf1gb51m2",
+        "opPlayerId": "489888",
+        "playerName": "A. Adli",
+        "optaEventId": "2887491957",
+        "cardReason": "Foul"
+      }
+    ],
+    "substitute": [
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 2,
+        "timeMin": 66,
+        "timeMinSec": "65:59",
+        "lastUpdated": "2026-01-03T18:54:53Z",
+        "timestamp": "2026-01-03T18:54:47Z",
+        "playerOnId": "d66tmyj9pt69gub8pcjgo3bh1",
+        "opPlayerOnId": "205651",
+        "playerOnName": "Gabriel Jesus",
+        "playerOffId": "73xu8dfkmgivh8l71hkqfe6sp",
+        "opPlayerOffId": "224117",
+        "playerOffName": "V. Gyökeres",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 2,
+        "timeMin": 67,
+        "timeMinSec": "66:08",
+        "lastUpdated": "2026-01-03T18:55:05Z",
+        "timestamp": "2026-01-03T18:54:57Z",
+        "playerOnId": "8tc7dcuwdeqbjgt7vw5p38xgq",
+        "opPlayerOnId": "223340",
+        "playerOnName": "B. Saka",
+        "playerOffId": "e3il1t1s5lrn4g8t85fcm40oa",
+        "opPlayerOffId": "248857",
+        "playerOffName": "N. Madueke",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 2,
+        "timeMin": 67,
+        "timeMinSec": "66:09",
+        "lastUpdated": "2026-01-03T18:54:59Z",
+        "timestamp": "2026-01-03T18:54:57Z",
+        "playerOnId": "8qwpdf5jof7o6yy47v6iv11hx",
+        "opPlayerOnId": "116216",
+        "playerOnName": "L. Trossard",
+        "playerOffId": "7ocm7nugzwos59il1pm4eub8q",
+        "opPlayerOffId": "444145",
+        "playerOffName": "Gabriel Martinelli",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 2,
+        "timeMin": 67,
+        "timeMinSec": "66:32",
+        "lastUpdated": "2026-01-03T18:55:29Z",
+        "timestamp": "2026-01-03T18:55:21Z",
+        "playerOnId": "8mcf8c8ht32as6xxrf1gb51m2",
+        "opPlayerOnId": "489888",
+        "playerOnName": "A. Adli",
+        "playerOffId": "96ou7x51dxymv16l0ocsuhbyt",
+        "opPlayerOffId": "111317",
+        "playerOffName": "D. Brooks",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 2,
+        "timeMin": 74,
+        "timeMinSec": "73:23",
+        "lastUpdated": "2026-01-03T19:02:48Z",
+        "timestamp": "2026-01-03T19:02:12Z",
+        "playerOnId": "3f2e9orrwiljklmmzwh2m7uvo",
+        "opPlayerOnId": "560262",
+        "playerOnName": "J. Kroupi",
+        "playerOffId": "mfsus6ryni5b1hjn0y70sbo4",
+        "opPlayerOffId": "503139",
+        "playerOffName": "A. Scott",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 2,
+        "timeMin": 74,
+        "timeMinSec": "73:27",
+        "lastUpdated": "2026-01-03T19:02:39Z",
+        "timestamp": "2026-01-03T19:02:15Z",
+        "playerOnId": "b64p21hmhsqgrn6n04mk00zpx",
+        "opPlayerOnId": "168636",
+        "playerOnName": "E. Ünal",
+        "playerOffId": "2wl0uylmkzi2ls7v4amgaa1yi",
+        "opPlayerOffId": "444102",
+        "playerOffName": "Evanilson",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "periodId": 2,
+        "timeMin": 74,
+        "timeMinSec": "73:34",
+        "lastUpdated": "2026-01-03T19:02:42Z",
+        "timestamp": "2026-01-03T19:02:23Z",
+        "playerOnId": "djelmk2oafas355n2u0d1bumt",
+        "opPlayerOnId": "155408",
+        "playerOnName": "L. Cook",
+        "playerOffId": "5qgc6zjc38a5xjl35gs7h3vu1",
+        "opPlayerOffId": "222683",
+        "playerOffName": "J. Kluivert",
+        "subReason": "Tactical"
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "periodId": 2,
+        "timeMin": 80,
+        "timeMinSec": "79:57",
+        "lastUpdated": "2026-01-03T19:08:53Z",
+        "timestamp": "2026-01-03T19:08:45Z",
+        "playerOnId": "atigcsq78g14w82lwvay26aj9",
+        "opPlayerOnId": "195384",
+        "playerOnName": "Mikel Merino",
+        "playerOffId": "b1lcxeihx8z6pfv1jef4j5jh1",
+        "opPlayerOffId": "184029",
+        "playerOffName": "M. Ødegaard",
+        "subReason": "Tactical"
+      }
+    ],
+    "lineUp": [
+      {
+        "contestantId": "1pse9ta7a45pi2w2grjim70ge",
+        "opContestantId": "91",
+        "formationUsed": "4231",
+        "player": [
+          {
+            "playerId": "bcfzovs0pj9urgv9r0ykjnlrd",
+            "opPlayerId": "457569",
+            "firstName": "Đorđe",
+            "lastName": "Petrović",
+            "shortFirstName": "Djordje",
+            "shortLastName": "Petrovic",
+            "matchName": "Đ. Petrović",
+            "shirtNumber": 1,
+            "position": "Goalkeeper",
+            "positionSide": "Centre",
+            "formationPlace": "1"
+          },
+          {
+            "playerId": "92qqdiryqd8juqdjq8585476y",
+            "opPlayerId": "494521",
+            "firstName": "Adrien Lilian Gaëtan",
+            "lastName": "Truffert",
+            "shortFirstName": "Adrien",
+            "shortLastName": "Truffert",
+            "matchName": "A. Truffert",
+            "shirtNumber": 3,
+            "position": "Defender",
+            "positionSide": "Left",
+            "formationPlace": "3"
+          },
+          {
+            "playerId": "95pzsjfh0wf6isp6qpf9lddyh",
+            "opPlayerId": "221466",
+            "firstName": "Marcos Nicolás",
+            "lastName": "Senesi Barón",
+            "shortFirstName": "Marcos",
+            "shortLastName": "Senesi",
+            "matchName": "M. Senesi",
+            "shirtNumber": 5,
+            "position": "Defender",
+            "positionSide": "Left/Centre",
+            "formationPlace": "6"
+          },
+          {
+            "playerId": "9ea8t509bssf2bhp1n5xxvrl6",
+            "opPlayerId": "463981",
+            "firstName": "James Clayton",
+            "lastName": "Hill",
+            "shortFirstName": "James",
+            "shortLastName": "Hill",
+            "matchName": "J. Hill",
+            "shirtNumber": 23,
+            "position": "Defender",
+            "positionSide": "Centre/Right",
+            "formationPlace": "5"
+          },
+          {
+            "playerId": "clbsrtzkf61e6vx28ou5lbx90",
+            "opPlayerId": "551483",
+            "firstName": "Alejandro",
+            "lastName": "Jiménez Sánchez",
+            "shortFirstName": "Álex",
+            "shortLastName": "Jiménez",
+            "matchName": "Álex Jiménez",
+            "shirtNumber": 20,
+            "position": "Defender",
+            "positionSide": "Right",
+            "formationPlace": "2"
+          },
+          {
+            "playerId": "b3gobhr43y8oxpafvp4f8rgmh",
+            "opPlayerId": "201658",
+            "firstName": "Marcus Joseph",
+            "lastName": "Tavernier",
+            "shortFirstName": "Marcus",
+            "shortLastName": "Tavernier",
+            "matchName": "M. Tavernier",
+            "shirtNumber": 16,
+            "position": "Defensive Midfielder",
+            "positionSide": "Left/Centre",
+            "formationPlace": "4"
+          },
+          {
+            "playerId": "mfsus6ryni5b1hjn0y70sbo4",
+            "opPlayerId": "503139",
+            "firstName": "Alex Jay",
+            "lastName": "Scott",
+            "shortFirstName": "Alex",
+            "shortLastName": "Scott",
+            "matchName": "A. Scott",
+            "shirtNumber": 8,
+            "position": "Defensive Midfielder",
+            "positionSide": "Centre/Right",
+            "formationPlace": "8"
+          },
+          {
+            "playerId": "96ou7x51dxymv16l0ocsuhbyt",
+            "opPlayerId": "111317",
+            "firstName": "David Robert",
+            "lastName": "Brooks",
+            "shortFirstName": "David",
+            "shortLastName": "Brooks",
+            "matchName": "D. Brooks",
+            "shirtNumber": 7,
+            "position": "Attacking Midfielder",
+            "positionSide": "Left",
+            "formationPlace": "11",
+            "captain": "yes"
+          },
+          {
+            "playerId": "5qgc6zjc38a5xjl35gs7h3vu1",
+            "opPlayerId": "222683",
+            "firstName": "Justin Dean",
+            "lastName": "Kluivert",
+            "shortFirstName": "Justin",
+            "shortLastName": "Kluivert",
+            "matchName": "J. Kluivert",
+            "shirtNumber": 19,
+            "position": "Attacking Midfielder",
+            "positionSide": "Centre",
+            "formationPlace": "10"
+          },
+          {
+            "playerId": "7tnuxlg9l4rjhc7j3ko36hduy",
+            "opPlayerId": "437730",
+            "firstName": "Antoine Serlom",
+            "lastName": "Semenyo",
+            "shortFirstName": "Antoine",
+            "shortLastName": "Semenyo",
+            "matchName": "A. Semenyo",
+            "shirtNumber": 24,
+            "position": "Attacking Midfielder",
+            "positionSide": "Right",
+            "formationPlace": "7"
+          },
+          {
+            "playerId": "2wl0uylmkzi2ls7v4amgaa1yi",
+            "opPlayerId": "444102",
+            "firstName": "Francisco Evanilson",
+            "lastName": "de Lima Barbosa",
+            "shortFirstName": "Francisco Evanilson",
+            "shortLastName": "de Lima Barbosa",
+            "knownName": "Evanilson",
+            "matchName": "Evanilson",
+            "shirtNumber": 9,
+            "position": "Striker",
+            "positionSide": "Centre",
+            "formationPlace": "9"
+          },
+          {
+            "playerId": "8mcf8c8ht32as6xxrf1gb51m2",
+            "opPlayerId": "489888",
+            "firstName": "Amine",
+            "lastName": "Adli",
+            "shortFirstName": "Amine",
+            "shortLastName": "Adli",
+            "matchName": "A. Adli",
+            "shirtNumber": 21,
+            "position": "Substitute",
+            "subPosition": "Attacker"
+          },
+          {
+            "playerId": "djelmk2oafas355n2u0d1bumt",
+            "opPlayerId": "155408",
+            "firstName": "Lewis John",
+            "lastName": "Cook",
+            "shortFirstName": "Lewis",
+            "shortLastName": "Cook",
+            "matchName": "L. Cook",
+            "shirtNumber": 4,
+            "position": "Substitute",
+            "subPosition": "Midfielder"
+          },
+          {
+            "playerId": "7c0b5fz3m1uw0fwpm051e6rfu",
+            "opPlayerId": "242882",
+            "firstName": "Bafodé",
+            "lastName": "Diakité",
+            "shortFirstName": "Bafodé",
+            "shortLastName": "Diakité",
+            "matchName": "B. Diakité",
+            "shirtNumber": 18,
+            "position": "Substitute",
+            "subPosition": "Defender"
+          },
+          {
+            "playerId": "8wz5pdydepr5kzcichz17pv4l",
+            "opPlayerId": "40383",
+            "firstName": "Fraser Gerard",
+            "lastName": "Forster",
+            "shortFirstName": "Fraser",
+            "shortLastName": "Forster",
+            "matchName": "F. Forster",
+            "shirtNumber": 17,
+            "position": "Substitute",
+            "subPosition": "Goalkeeper"
+          },
+          {
+            "playerId": "3f2e9orrwiljklmmzwh2m7uvo",
+            "opPlayerId": "560262",
+            "firstName": "Eli Junior Éric Anatole Rainha",
+            "lastName": "Kroupi",
+            "shortFirstName": "Junior",
+            "shortLastName": "Kroupi",
+            "matchName": "J. Kroupi",
+            "shirtNumber": 22,
+            "position": "Substitute",
+            "subPosition": "Attacker"
+          },
+          {
+            "playerId": "bch2qxtejv4kj2h1zyfpl05qs",
+            "opPlayerId": "606774",
+            "firstName": "Remy William James",
+            "lastName": "Rees-Dottin",
+            "shortFirstName": "Remy",
+            "shortLastName": "Rees-Dottin",
+            "matchName": "R. Rees-Dottin",
+            "shirtNumber": 50,
+            "position": "Substitute",
+            "subPosition": "Attacker"
+          },
+          {
+            "playerId": "80bmtj7l07ohb2h475w955n9",
+            "opPlayerId": "54469",
+            "firstName": "Adam James",
+            "lastName": "Smith",
+            "shortFirstName": "Adam",
+            "shortLastName": "Smith",
+            "matchName": "A. Smith",
+            "shirtNumber": 15,
+            "position": "Substitute",
+            "subPosition": "Defender"
+          },
+          {
+            "playerId": "erge77vege2a3zor041ert5w4",
+            "opPlayerId": "575901",
+            "firstName": "Julio César",
+            "lastName": "Soler Barreto",
+            "shortFirstName": "Julio",
+            "shortLastName": "Soler",
+            "matchName": "J. Soler",
+            "shirtNumber": 6,
+            "position": "Substitute",
+            "subPosition": "Defender"
+          },
+          {
+            "playerId": "b64p21hmhsqgrn6n04mk00zpx",
+            "opPlayerId": "168636",
+            "firstName": "Enes",
+            "lastName": "Ünal",
+            "shortFirstName": "Enes",
+            "shortLastName": "Ünal",
+            "matchName": "E. Ünal",
+            "shirtNumber": 26,
+            "position": "Substitute",
+            "subPosition": "Attacker"
+          }
+        ],
+        "teamOfficial": [
+          {
+            "id": "5npculapp3dhx3e9747ul6m3u",
+            "opId": "50428",
+            "firstName": "Andoni",
+            "lastName": "Iraola Sagarna",
+            "shortFirstName": "Andoni",
+            "shortLastName": "Iraola",
+            "type": "manager"
+          }
+        ]
+      },
+      {
+        "contestantId": "4dsgumo7d4zupm2ugsvm4zm4d",
+        "opContestantId": "3",
+        "formationUsed": "433",
+        "player": [
+          {
+            "playerId": "4iijb6llnz28unsz4rirr3umt",
+            "opPlayerId": "154561",
+            "firstName": "David",
+            "lastName": "Raya Martín",
+            "shortFirstName": "David",
+            "shortLastName": "Raya",
+            "matchName": "David Raya",
+            "shirtNumber": 1,
+            "position": "Goalkeeper",
+            "positionSide": "Centre",
+            "formationPlace": "1"
+          },
+          {
+            "playerId": "4foax2b7unlkev1eq6py86lii",
+            "opPlayerId": "448104",
+            "firstName": "Piero Martín",
+            "lastName": "Hincapié Reyna",
+            "shortFirstName": "Piero",
+            "shortLastName": "Hincapié",
+            "matchName": "P. Hincapié",
+            "shirtNumber": 5,
+            "position": "Defender",
+            "positionSide": "Left",
+            "formationPlace": "3"
+          },
+          {
+            "playerId": "8libvn3hxypz8x7gm4mr7kj55",
+            "opPlayerId": "226597",
+            "firstName": "Gabriel",
+            "lastName": "dos Santos Magalhães",
+            "shortFirstName": "Gabriel",
+            "shortLastName": "dos Santos Magalhães",
+            "knownName": "Gabriel Magalhães",
+            "matchName": "Gabriel Magalhães",
+            "shirtNumber": 6,
+            "position": "Defender",
+            "positionSide": "Left/Centre",
+            "formationPlace": "6"
+          },
+          {
+            "playerId": "65rqu55qbzswixgqw2efna06i",
+            "opPlayerId": "462424",
+            "firstName": "William Alain André Gabriel",
+            "lastName": "Saliba",
+            "shortFirstName": "William",
+            "shortLastName": "Saliba",
+            "matchName": "W. Saliba",
+            "shirtNumber": 2,
+            "position": "Defender",
+            "positionSide": "Centre/Right",
+            "formationPlace": "5"
+          },
+          {
+            "playerId": "aqlakf0mo95rlktf6xdbaegh5",
+            "opPlayerId": "445122",
+            "firstName": "Jurriën David Norman",
+            "lastName": "Timber",
+            "shortFirstName": "Jurriën",
+            "shortLastName": "Timber",
+            "matchName": "J. Timber",
+            "shirtNumber": 12,
+            "position": "Defender",
+            "positionSide": "Right",
+            "formationPlace": "2"
+          },
+          {
+            "playerId": "6jgocc12bori2wygyu07c082x",
+            "opPlayerId": "204480",
+            "firstName": "Declan",
+            "lastName": "Rice",
+            "shortFirstName": "Declan",
+            "shortLastName": "Rice",
+            "matchName": "D. Rice",
+            "shirtNumber": 41,
+            "position": "Midfielder",
+            "positionSide": "Left/Centre",
+            "formationPlace": "8"
+          },
+          {
+            "playerId": "80aqmv4ht6rs1812qrr5j8kix",
+            "opPlayerId": "481655",
+            "firstName": "Martín",
+            "lastName": "Zubimendi Ibáñez",
+            "shortFirstName": "Martín",
+            "shortLastName": "Zubimendi",
+            "matchName": "Martín Zubimendi",
+            "shirtNumber": 36,
+            "position": "Midfielder",
+            "positionSide": "Centre",
+            "formationPlace": "4"
+          },
+          {
+            "playerId": "b1lcxeihx8z6pfv1jef4j5jh1",
+            "opPlayerId": "184029",
+            "firstName": "Martin",
+            "lastName": "Ødegaard",
+            "shortFirstName": "Martin",
+            "shortLastName": "Ødegaard",
+            "matchName": "M. Ødegaard",
+            "shirtNumber": 8,
+            "position": "Midfielder",
+            "positionSide": "Centre/Right",
+            "formationPlace": "7",
+            "captain": "yes"
+          },
+          {
+            "playerId": "7ocm7nugzwos59il1pm4eub8q",
+            "opPlayerId": "444145",
+            "firstName": "Gabriel Teodoro",
+            "lastName": "Martinelli Silva",
+            "shortFirstName": "Gabriel Teodoro",
+            "shortLastName": "Martinelli Silva",
+            "knownName": "Gabriel Martinelli",
+            "matchName": "Gabriel Martinelli",
+            "shirtNumber": 11,
+            "position": "Striker",
+            "positionSide": "Left/Centre",
+            "formationPlace": "11"
+          },
+          {
+            "playerId": "73xu8dfkmgivh8l71hkqfe6sp",
+            "opPlayerId": "224117",
+            "firstName": "Viktor Einar",
+            "lastName": "Gyökeres",
+            "shortFirstName": "Viktor",
+            "shortLastName": "Gyökeres",
+            "matchName": "V. Gyökeres",
+            "shirtNumber": 14,
+            "position": "Striker",
+            "positionSide": "Centre",
+            "formationPlace": "9"
+          },
+          {
+            "playerId": "e3il1t1s5lrn4g8t85fcm40oa",
+            "opPlayerId": "248857",
+            "firstName": "Chukwunonso Azuka Tristan",
+            "lastName": "Madueke",
+            "shortFirstName": "Noni",
+            "shortLastName": "Madueke",
+            "matchName": "N. Madueke",
+            "shirtNumber": 20,
+            "position": "Striker",
+            "positionSide": "Centre/Right",
+            "formationPlace": "10"
+          },
+          {
+            "playerId": "6j3wbk9xlq4om4m8ih6b3tyvp",
+            "opPlayerId": "109745",
+            "firstName": "Kepa",
+            "lastName": "Arrizabalaga Revuelta",
+            "shortFirstName": "Kepa",
+            "shortLastName": "Arrizabalaga",
+            "matchName": "Kepa Arrizabalaga",
+            "shirtNumber": 13,
+            "position": "Substitute",
+            "subPosition": "Goalkeeper"
+          },
+          {
+            "playerId": "4wic6z72nwmhkheme209fcmp5",
+            "opPlayerId": "232413",
+            "firstName": "Eberechi Oluchi",
+            "lastName": "Eze",
+            "shortFirstName": "Eberechi",
+            "shortLastName": "Eze",
+            "matchName": "E. Eze",
+            "shirtNumber": 10,
+            "position": "Substitute",
+            "subPosition": "Midfielder"
+          },
+          {
+            "playerId": "azt1lhru9cgyb64h4h4fffrx0",
+            "opPlayerId": "499169",
+            "firstName": "Myles Anthony",
+            "lastName": "Lewis-Skelly",
+            "shortFirstName": "Myles",
+            "shortLastName": "Lewis-Skelly",
+            "matchName": "M. Lewis-Skelly",
+            "shirtNumber": 49,
+            "position": "Substitute",
+            "subPosition": "Defender"
+          },
+          {
+            "playerId": "atigcsq78g14w82lwvay26aj9",
+            "opPlayerId": "195384",
+            "firstName": "Mikel",
+            "lastName": "Merino Zazón",
+            "shortFirstName": "Mikel",
+            "shortLastName": "Merino",
+            "matchName": "Mikel Merino",
+            "shirtNumber": 23,
+            "position": "Substitute",
+            "subPosition": "Midfielder"
+          },
+          {
+            "playerId": "8tc7dcuwdeqbjgt7vw5p38xgq",
+            "opPlayerId": "223340",
+            "firstName": "Bukayo Ayoyinka Temidayo",
+            "lastName": "Saka",
+            "shortFirstName": "Bukayo",
+            "shortLastName": "Saka",
+            "matchName": "B. Saka",
+            "shirtNumber": 7,
+            "position": "Substitute",
+            "subPosition": "Attacker"
+          },
+          {
+            "playerId": "8ju1opnca42o8i00wq3onzmqd",
+            "opPlayerId": "128295",
+            "firstName": "Christian",
+            "lastName": "Thers Barsøe Nørgaard",
+            "shortFirstName": "Christian",
+            "shortLastName": "Nørgaard",
+            "matchName": "C. Nørgaard",
+            "shirtNumber": 16,
+            "position": "Substitute",
+            "subPosition": "Midfielder"
+          },
+          {
+            "playerId": "8qwpdf5jof7o6yy47v6iv11hx",
+            "opPlayerId": "116216",
+            "firstName": "Leandro",
+            "lastName": "Trossard",
+            "shortFirstName": "Leandro",
+            "shortLastName": "Trossard",
+            "matchName": "L. Trossard",
+            "shirtNumber": 19,
+            "position": "Substitute",
+            "subPosition": "Attacker"
+          },
+          {
+            "playerId": "cnmlhoum9aahwqruxgmz2gcfd",
+            "opPlayerId": "198869",
+            "firstName": "Benjamin William",
+            "lastName": "White",
+            "shortFirstName": "Ben",
+            "shortLastName": "White",
+            "matchName": "B. White",
+            "shirtNumber": 4,
+            "position": "Substitute",
+            "subPosition": "Defender"
+          },
+          {
+            "playerId": "d66tmyj9pt69gub8pcjgo3bh1",
+            "opPlayerId": "205651",
+            "firstName": "Gabriel Fernando",
+            "lastName": "de Jesus",
+            "shortFirstName": "Gabriel Fernando",
+            "shortLastName": "de Jesus",
+            "knownName": "Gabriel Jesus",
+            "matchName": "Gabriel Jesus",
+            "shirtNumber": 9,
+            "position": "Substitute",
+            "subPosition": "Attacker"
+          }
+        ],
+        "teamOfficial": [
+          {
+            "id": "etf1n9y07i3sxiys514vj7ufp",
+            "opId": "51018",
+            "firstName": "Mikel",
+            "lastName": "Arteta Amatriain",
+            "shortFirstName": "Mikel",
+            "shortLastName": "Arteta",
+            "type": "manager"
+          }
+        ]
+      }
+    ],
+    "matchDetailsExtra": {
+      "attendance": "11240",
+      "matchOfficial": [
+        {
+          "id": "a2f1uxknjuvoxkhfxofh4u9qt",
+          "opId": "42675",
+          "type": "Main",
+          "firstName": "Chris",
+          "lastName": "Kavanagh",
+          "shortFirstName": "Chris",
+          "shortLastName": "Kavanagh"
+        },
+        {
+          "id": "c9lhzgx31m1sk0srjcqtq7hzp",
+          "opId": "43328",
+          "type": "Assistant referee 1",
+          "firstName": "Daniel",
+          "lastName": "Cook",
+          "shortFirstName": "Dan",
+          "shortLastName": "Cook"
+        },
+        {
+          "id": "f1g3337l5j65736o54oswmxud",
+          "opId": "43464",
+          "type": "Assistant referee 2",
+          "firstName": "Ian",
+          "lastName": "Hussin",
+          "shortFirstName": "Ian",
+          "shortLastName": "Hussin"
+        },
+        {
+          "id": "dyhw9jbfdev4j1c3bmfi104q1",
+          "opId": "49095",
+          "type": "Fourth official",
+          "firstName": "Lewis",
+          "lastName": "Smith",
+          "shortFirstName": "Lewis",
+          "shortLastName": "Smith"
+        },
+        {
+          "id": "afrtbcmah9i7djl05ptba3i6t",
+          "opId": "41180",
+          "type": "Video Assistant Referee",
+          "firstName": "Paul",
+          "lastName": "Tierney",
+          "shortFirstName": "Paul",
+          "shortLastName": "Tierney"
+        },
+        {
+          "id": "6nefbbdxtp7etu0q6rktroclx",
+          "opId": "43634",
+          "type": "Assistant VAR Official",
+          "firstName": "Marc",
+          "lastName": "Perry",
+          "shortFirstName": "Marc",
+          "shortLastName": "Perry"
+        }
+      ]
+    }
+  }
+}

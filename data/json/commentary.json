@@ -1,0 +1,851 @@
+{
+  "pagination": {
+    "_limit": 100,
+    "_prev": null,
+    "_next": "eyJsYW5nX2lkIjogImVuIiwgIm1hdGNoX2lkIjogIjI1NjIwODUiLCAibWVzc2FnZV9pZCI6ICIyODg3NDkzNjk1In1fXzIwMjYtMDEtMDMgMTk6MjE6NTc"
+  },
+  "data": [
+    {
+      "comment": "Lineups are announced and players are warming up.",
+      "type": "lineup",
+      "timestamp": "2026-01-03 16:25:06"
+    },
+    {
+      "team1": "3",
+      "team2": "91",
+      "comment": "First Half begins.",
+      "time": " ",
+      "type": "start",
+      "timestamp": "2026-01-03 17:30:38"
+    },
+    {
+      "player1": "481655",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Martín Zubimendi.",
+      "time": "1'",
+      "type": "corner",
+      "timestamp": "2026-01-03 17:30:51"
+    },
+    {
+      "player1": "226597",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Gabriel Magalhães.",
+      "time": "2'",
+      "type": "corner",
+      "timestamp": "2026-01-03 17:32:35"
+    },
+    {
+      "player1": "184029",
+      "player2": "481655",
+      "team1": "3",
+      "comment": "Attempt missed. Martin Ødegaard (Arsenal) left footed shot from outside the box is high and wide to the left. Assisted by Martín Zubimendi.",
+      "time": "6'",
+      "type": "miss",
+      "timestamp": "2026-01-03 17:35:51"
+    },
+    {
+      "player1": "248857",
+      "player2": "445122",
+      "team1": "3",
+      "comment": "Attempt missed. Noni Madueke (Arsenal) left footed shot from the right side of the box is high and wide to the left. Assisted by Jurriën Timber.",
+      "time": "8'",
+      "type": "miss",
+      "timestamp": "2026-01-03 17:38:13"
+    },
+    {
+      "player1": "448104",
+      "team1": "3",
+      "comment": "Piero Hincapié (Arsenal) wins a free kick in the defensive half.",
+      "time": "10'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 17:40:05"
+    },
+    {
+      "player1": "437730",
+      "team1": "91",
+      "comment": "Foul by Antoine Semenyo (Bournemouth).",
+      "time": "10'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 17:40:05"
+    },
+    {
+      "player1": "444102",
+      "team1": "91",
+      "team2": "3",
+      "comment": "Goal! Bournemouth 1, Arsenal 0. Evanilson (Bournemouth) right footed shot from the centre of the box to the bottom left corner.",
+      "time": "10'",
+      "type": "goal",
+      "timestamp": "2026-01-03 17:40:36"
+    },
+    {
+      "player1": "226597",
+      "team1": "3",
+      "comment": "Foul by Gabriel Magalhães (Arsenal).",
+      "time": "13'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 17:42:49"
+    },
+    {
+      "player1": "437730",
+      "team1": "91",
+      "comment": "Antoine Semenyo (Bournemouth) wins a free kick in the defensive half.",
+      "time": "13'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 17:42:49"
+    },
+    {
+      "player1": "222683",
+      "player2": "201658",
+      "team1": "91",
+      "comment": "Attempt missed. Justin Kluivert (Bournemouth) right footed shot from outside the box is close, but misses to the right. Assisted by Marcus Tavernier.",
+      "time": "13'",
+      "type": "miss",
+      "timestamp": "2026-01-03 17:43:13"
+    },
+    {
+      "player1": "224117",
+      "team1": "3",
+      "comment": "Viktor Gyökeres (Arsenal) wins a free kick in the attacking half.",
+      "time": "14'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 17:44:21"
+    },
+    {
+      "player1": "221466",
+      "team1": "91",
+      "comment": "Foul by Marcos Senesi (Bournemouth).",
+      "time": "14'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 17:44:21"
+    },
+    {
+      "player1": "448104",
+      "team1": "3",
+      "comment": "Piero Hincapié (Arsenal) wins a free kick on the left wing.",
+      "time": "15'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 17:44:58"
+    },
+    {
+      "player1": "551483",
+      "team1": "91",
+      "comment": "Foul by Álex Jiménez (Bournemouth).",
+      "time": "15'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 17:44:58"
+    },
+    {
+      "player1": "444145",
+      "player2": "448104",
+      "team1": "3",
+      "comment": "Attempt blocked. Gabriel Martinelli (Arsenal) left footed shot from the centre of the box is blocked. Assisted by Piero Hincapié.",
+      "time": "16'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 17:45:54"
+    },
+    {
+      "player1": "226597",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Goal! Bournemouth 1, Arsenal 1. Gabriel Magalhães (Arsenal) left footed shot from the centre of the box to the top left corner following a set piece situation.",
+      "time": "16'",
+      "type": "goal",
+      "timestamp": "2026-01-03 17:45:56"
+    },
+    {
+      "player1": "224117",
+      "player2": "248857",
+      "team1": "3",
+      "comment": "Attempt blocked. Viktor Gyökeres (Arsenal) left footed shot from outside the box is blocked. Assisted by Noni Madueke with a headed pass.",
+      "time": "18'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 17:48:08"
+    },
+    {
+      "player1": "463981",
+      "team1": "91",
+      "team2": "3",
+      "comment": "Corner, Arsenal. Conceded by James Hill.",
+      "time": "18'",
+      "type": "corner",
+      "timestamp": "2026-01-03 17:48:09"
+    },
+    {
+      "player1": "503139",
+      "team1": "91",
+      "comment": "Alex Scott (Bournemouth) wins a free kick in the attacking half.",
+      "time": "20'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 17:49:41"
+    },
+    {
+      "player1": "224117",
+      "team1": "3",
+      "comment": "Foul by Viktor Gyökeres (Arsenal).",
+      "time": "20'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 17:49:41"
+    },
+    {
+      "player1": "111317",
+      "player2": "444102",
+      "team1": "91",
+      "comment": "Offside, Bournemouth. Evanilson is caught offside.",
+      "time": "21'",
+      "type": "offside",
+      "timestamp": "2026-01-03 17:51:18"
+    },
+    {
+      "player1": "201658",
+      "player2": "463981",
+      "team1": "91",
+      "comment": "Attempt missed. Marcus Tavernier (Bournemouth) header from the centre of the box misses to the left. Assisted by James Hill with a cross.",
+      "time": "23'",
+      "type": "miss",
+      "timestamp": "2026-01-03 17:53:04"
+    },
+    {
+      "player1": "444102",
+      "team1": "91",
+      "comment": "Evanilson (Bournemouth) wins a free kick in the attacking half.",
+      "time": "24'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 17:54:18"
+    },
+    {
+      "player1": "226597",
+      "team1": "3",
+      "comment": "Foul by Gabriel Magalhães (Arsenal).",
+      "time": "24'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 17:54:18"
+    },
+    {
+      "player1": "222683",
+      "team1": "91",
+      "comment": "Attempt missed. Justin Kluivert (Bournemouth) right footed shot from outside the box is close, but misses to the left from a direct free kick.",
+      "time": "25'",
+      "type": "miss",
+      "timestamp": "2026-01-03 17:55:28"
+    },
+    {
+      "player1": "448104",
+      "team1": "3",
+      "comment": "Piero Hincapié (Arsenal) wins a free kick in the defensive half.",
+      "time": "26'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 17:56:33"
+    },
+    {
+      "player1": "437730",
+      "team1": "91",
+      "comment": "Foul by Antoine Semenyo (Bournemouth).",
+      "time": "26'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 17:56:33"
+    },
+    {
+      "player1": "437730",
+      "team1": "91",
+      "comment": "Antoine Semenyo (Bournemouth) is shown the yellow card for a bad foul.",
+      "time": "26'",
+      "type": "yellow card",
+      "timestamp": "2026-01-03 17:56:38"
+    },
+    {
+      "player1": "444102",
+      "player2": "437730",
+      "team1": "91",
+      "comment": "Attempt blocked. Evanilson (Bournemouth) left footed shot from outside the box is blocked. Assisted by Antoine Semenyo.",
+      "time": "30'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 18:00:35"
+    },
+    {
+      "player1": "201658",
+      "player2": "222683",
+      "team1": "91",
+      "comment": "Attempt missed. Marcus Tavernier (Bournemouth) left footed shot from the centre of the box is high and wide to the right. Assisted by Justin Kluivert with a cross.",
+      "time": "31'",
+      "type": "miss",
+      "timestamp": "2026-01-03 18:01:03"
+    },
+    {
+      "player1": "503139",
+      "team1": "91",
+      "comment": "Alex Scott (Bournemouth) wins a free kick in the defensive half.",
+      "time": "32'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 18:02:12"
+    },
+    {
+      "player1": "204480",
+      "team1": "3",
+      "comment": "Foul by Declan Rice (Arsenal).",
+      "time": "32'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 18:02:12"
+    },
+    {
+      "player1": "226597",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Gabriel Magalhães.",
+      "time": "33'",
+      "type": "corner",
+      "timestamp": "2026-01-03 18:03:17"
+    },
+    {
+      "player1": "204480",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Declan Rice.",
+      "time": "34'",
+      "type": "corner",
+      "timestamp": "2026-01-03 18:03:47"
+    },
+    {
+      "player1": "201658",
+      "player2": "222683",
+      "team1": "91",
+      "comment": "Attempt blocked. Marcus Tavernier (Bournemouth) left footed shot from outside the box is blocked. Assisted by Justin Kluivert.",
+      "time": "35'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 18:05:07"
+    },
+    {
+      "player1": "444145",
+      "team1": "3",
+      "comment": "Gabriel Martinelli (Arsenal) wins a free kick on the left wing.",
+      "time": "38'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 18:08:13"
+    },
+    {
+      "player1": "551483",
+      "team1": "91",
+      "comment": "Foul by Álex Jiménez (Bournemouth).",
+      "time": "38'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 18:08:13"
+    },
+    {
+      "player1": "437730",
+      "player2": "444102",
+      "team1": "91",
+      "comment": "Attempt missed. Antoine Semenyo (Bournemouth) right footed shot from outside the box is too high. Assisted by Evanilson.",
+      "time": "41'",
+      "type": "miss",
+      "timestamp": "2026-01-03 18:11:00"
+    },
+    {
+      "player1": "184029",
+      "player2": "444145",
+      "team1": "3",
+      "comment": "Offside, Arsenal. Gabriel Martinelli is caught offside.",
+      "time": "42'",
+      "type": "offside",
+      "timestamp": "2026-01-03 18:11:58"
+    },
+    {
+      "team1": "3",
+      "team2": "91",
+      "comment": "Fourth official has announced 2 minutes of added time.",
+      "time": "45'",
+      "type": "added time",
+      "timestamp": "2026-01-03 18:15:38"
+    },
+    {
+      "team1": "3",
+      "team2": "91",
+      "comment": "First Half ends, Bournemouth 1, Arsenal 1.",
+      "time": "45'+3'",
+      "type": "end 1",
+      "timestamp": "2026-01-03 18:17:48"
+    },
+    {
+      "team1": "3",
+      "team2": "91",
+      "comment": "Second Half begins Bournemouth 1, Arsenal 1.",
+      "time": " ",
+      "type": "start",
+      "timestamp": "2026-01-03 18:33:48"
+    },
+    {
+      "player1": "503139",
+      "team1": "91",
+      "comment": "Foul by Alex Scott (Bournemouth).",
+      "time": "48'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 18:35:58"
+    },
+    {
+      "player1": "462424",
+      "team1": "3",
+      "comment": "William Saliba (Arsenal) wins a free kick on the right wing.",
+      "time": "48'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 18:35:58"
+    },
+    {
+      "player1": "462424",
+      "team1": "3",
+      "comment": "Foul by William Saliba (Arsenal).",
+      "time": "53'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 18:40:52"
+    },
+    {
+      "player1": "444102",
+      "team1": "91",
+      "comment": "Evanilson (Bournemouth) wins a free kick in the defensive half.",
+      "time": "53'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 18:40:52"
+    },
+    {
+      "player1": "111317",
+      "player2": "222683",
+      "team1": "91",
+      "comment": "Attempt missed. David Brooks (Bournemouth) left footed shot from the left side of the box misses to the right. Assisted by Justin Kluivert following a set piece situation.",
+      "time": "53'",
+      "type": "miss",
+      "timestamp": "2026-01-03 18:41:01"
+    },
+    {
+      "player1": "204480",
+      "player2": "184029",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Goal! Bournemouth 1, Arsenal 2. Declan Rice (Arsenal) right footed shot from outside the box to the bottom right corner. Assisted by Martin Ødegaard.",
+      "time": "54'",
+      "type": "goal",
+      "timestamp": "2026-01-03 18:41:54"
+    },
+    {
+      "player1": "248857",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Noni Madueke.",
+      "time": "56'",
+      "type": "corner",
+      "timestamp": "2026-01-03 18:44:03"
+    },
+    {
+      "player1": "111317",
+      "team1": "91",
+      "comment": "Attempt blocked. David Brooks (Bournemouth) left footed shot from the left side of the six yard box is blocked.",
+      "time": "58'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 18:46:15"
+    },
+    {
+      "player1": "445122",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Jurriën Timber.",
+      "time": "58'",
+      "type": "corner",
+      "timestamp": "2026-01-03 18:46:16"
+    },
+    {
+      "player1": "551483",
+      "team1": "91",
+      "comment": "Attempt missed. Álex Jiménez (Bournemouth) right footed shot from outside the box misses to the left following a corner.",
+      "time": "58'",
+      "type": "miss",
+      "timestamp": "2026-01-03 18:46:48"
+    },
+    {
+      "player1": "201658",
+      "team1": "91",
+      "comment": "Attempt saved. Marcus Tavernier (Bournemouth) left footed shot from outside the box is saved in the bottom right corner by David Raya (Arsenal).",
+      "time": "59'",
+      "type": "attempt saved",
+      "timestamp": "2026-01-03 18:47:08"
+    },
+    {
+      "player1": "154561",
+      "team1": "3",
+      "comment": "David Raya (Arsenal) wins a free kick in the defensive half.",
+      "time": "59'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 18:47:12"
+    },
+    {
+      "player1": "444102",
+      "team1": "91",
+      "comment": "Foul by Evanilson (Bournemouth).",
+      "time": "59'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 18:47:12"
+    },
+    {
+      "player1": "494521",
+      "team1": "91",
+      "team2": "3",
+      "comment": "Corner, Arsenal. Conceded by Adrien Truffert.",
+      "time": "60'",
+      "type": "corner",
+      "timestamp": "2026-01-03 18:48:21"
+    },
+    {
+      "player1": "248857",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Noni Madueke.",
+      "time": "60'",
+      "type": "corner",
+      "timestamp": "2026-01-03 18:48:21"
+    },
+    {
+      "player1": "444102",
+      "team1": "91",
+      "team2": "3",
+      "comment": "Corner, Arsenal. Conceded by Evanilson.",
+      "time": "61'",
+      "type": "corner",
+      "timestamp": "2026-01-03 18:49:20"
+    },
+    {
+      "team1": "91",
+      "comment": "Delay in match because of an injury Justin Kluivert (Bournemouth).",
+      "time": "65'",
+      "type": "start delay",
+      "timestamp": "2026-01-03 18:53:41"
+    },
+    {
+      "player1": "205651",
+      "player2": "224117",
+      "team1": "3",
+      "comment": "Substitution, Arsenal. Gabriel Jesus replaces Viktor Gyökeres.",
+      "time": "66'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 18:54:47"
+    },
+    {
+      "player1": "116216",
+      "player2": "444145",
+      "team1": "3",
+      "comment": "Substitution, Arsenal. Leandro Trossard replaces Gabriel Martinelli.",
+      "time": "67'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 18:54:57"
+    },
+    {
+      "player1": "223340",
+      "player2": "248857",
+      "team1": "3",
+      "comment": "Substitution, Arsenal. Bukayo Saka replaces Noni Madueke.",
+      "time": "67'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 18:54:57"
+    },
+    {
+      "team1": "91",
+      "comment": "Delay over. They are ready to continue.",
+      "time": "67'",
+      "type": "end delay",
+      "timestamp": "2026-01-03 18:55:08"
+    },
+    {
+      "player1": "489888",
+      "player2": "111317",
+      "team1": "91",
+      "comment": "Substitution, Bournemouth. Amine Adli replaces David Brooks.",
+      "time": "67'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 18:55:21"
+    },
+    {
+      "player1": "481655",
+      "team1": "3",
+      "comment": "Martín Zubimendi (Arsenal) is shown the yellow card.",
+      "time": "70'",
+      "type": "yellow card",
+      "timestamp": "2026-01-03 18:58:09"
+    },
+    {
+      "player1": "445122",
+      "team1": "3",
+      "comment": "Jurriën Timber (Arsenal) wins a free kick in the attacking half.",
+      "time": "71'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 18:58:54"
+    },
+    {
+      "player1": "489888",
+      "team1": "91",
+      "comment": "Foul by Amine Adli (Bournemouth).",
+      "time": "71'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 18:58:54"
+    },
+    {
+      "player1": "204480",
+      "player2": "223340",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Goal! Bournemouth 1, Arsenal 3. Declan Rice (Arsenal) right footed shot from the centre of the box to the bottom right corner. Assisted by Bukayo Saka.",
+      "time": "71'",
+      "type": "goal",
+      "timestamp": "2026-01-03 18:59:23"
+    },
+    {
+      "player1": "560262",
+      "player2": "503139",
+      "team1": "91",
+      "comment": "Substitution, Bournemouth. Junior Kroupi replaces Alex Scott.",
+      "time": "74'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 19:02:12"
+    },
+    {
+      "player1": "168636",
+      "player2": "444102",
+      "team1": "91",
+      "comment": "Substitution, Bournemouth. Enes Ünal replaces Evanilson.",
+      "time": "74'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 19:02:15"
+    },
+    {
+      "player1": "155408",
+      "player2": "222683",
+      "team1": "91",
+      "comment": "Substitution, Bournemouth. Lewis Cook replaces Justin Kluivert.",
+      "time": "74'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 19:02:23"
+    },
+    {
+      "player1": "494521",
+      "team1": "91",
+      "comment": "Adrien Truffert (Bournemouth) wins a free kick on the left wing.",
+      "time": "75'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 19:03:41"
+    },
+    {
+      "player1": "445122",
+      "team1": "3",
+      "comment": "Foul by Jurriën Timber (Arsenal).",
+      "time": "75'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 19:03:41"
+    },
+    {
+      "player1": "560262",
+      "player2": "155408",
+      "team1": "91",
+      "team2": "3",
+      "comment": "Goal! Bournemouth 2, Arsenal 3. Junior Kroupi (Bournemouth) right footed shot from outside the box to the bottom left corner. Assisted by Lewis Cook following a set piece situation.",
+      "time": "76'",
+      "type": "goal",
+      "timestamp": "2026-01-03 19:04:35"
+    },
+    {
+      "player1": "437730",
+      "player2": "155408",
+      "team1": "91",
+      "comment": "Attempt blocked. Antoine Semenyo (Bournemouth) left footed shot from outside the box is blocked. Assisted by Lewis Cook.",
+      "time": "78'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 19:06:14"
+    },
+    {
+      "player1": "116216",
+      "team1": "3",
+      "team2": "91",
+      "comment": "Corner, Bournemouth. Conceded by Leandro Trossard.",
+      "time": "78'",
+      "type": "corner",
+      "timestamp": "2026-01-03 19:06:15"
+    },
+    {
+      "player1": "116216",
+      "team1": "3",
+      "comment": "Leandro Trossard (Arsenal) wins a free kick in the defensive half.",
+      "time": "80'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 19:07:59"
+    },
+    {
+      "player1": "560262",
+      "team1": "91",
+      "comment": "Foul by Junior Kroupi (Bournemouth).",
+      "time": "80'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 19:07:59"
+    },
+    {
+      "player1": "560262",
+      "team1": "91",
+      "comment": "Junior Kroupi (Bournemouth) is shown the yellow card for a bad foul.",
+      "time": "80'",
+      "type": "yellow card",
+      "timestamp": "2026-01-03 19:08:05"
+    },
+    {
+      "player1": "195384",
+      "player2": "184029",
+      "team1": "3",
+      "comment": "Substitution, Arsenal. Mikel Merino replaces Martin Ødegaard.",
+      "time": "80'",
+      "type": "substitution",
+      "timestamp": "2026-01-03 19:08:45"
+    },
+    {
+      "player1": "445122",
+      "team1": "3",
+      "comment": "Foul by Jurriën Timber (Arsenal).",
+      "time": "84'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 19:11:54"
+    },
+    {
+      "player1": "489888",
+      "team1": "91",
+      "comment": "Amine Adli (Bournemouth) wins a free kick on the left wing.",
+      "time": "84'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 19:11:54"
+    },
+    {
+      "player1": "116216",
+      "team1": "3",
+      "comment": "Leandro Trossard (Arsenal) wins a free kick on the left wing.",
+      "time": "85'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 19:12:50"
+    },
+    {
+      "player1": "551483",
+      "team1": "91",
+      "comment": "Foul by Álex Jiménez (Bournemouth).",
+      "time": "85'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 19:12:50"
+    },
+    {
+      "player1": "489888",
+      "team1": "91",
+      "comment": "Handball by Amine Adli (Bournemouth).",
+      "time": "85'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 19:13:44"
+    },
+    {
+      "player1": "195384",
+      "team1": "3",
+      "comment": "Attempt saved. Mikel Merino (Arsenal) left footed shot from outside the box is saved in the bottom right corner by Djordje Petrovic (Bournemouth).",
+      "time": "86'",
+      "type": "attempt saved",
+      "timestamp": "2026-01-03 19:14:07"
+    },
+    {
+      "player1": "116216",
+      "player2": "204480",
+      "team1": "3",
+      "comment": "Attempt blocked. Leandro Trossard (Arsenal) right footed shot from the left side of the box is blocked. Assisted by Declan Rice.",
+      "time": "87'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 19:15:11"
+    },
+    {
+      "player1": "551483",
+      "team1": "91",
+      "team2": "3",
+      "comment": "Corner, Arsenal. Conceded by Álex Jiménez.",
+      "time": "87'",
+      "type": "corner",
+      "timestamp": "2026-01-03 19:15:14"
+    },
+    {
+      "player1": "195384",
+      "player2": "223340",
+      "team1": "3",
+      "comment": "Attempt blocked. Mikel Merino (Arsenal) header from the centre of the box is blocked. Assisted by Bukayo Saka with a cross.",
+      "time": "88'",
+      "type": "attempt blocked",
+      "timestamp": "2026-01-03 19:16:02"
+    },
+    {
+      "player1": "223340",
+      "player2": "445122",
+      "team1": "3",
+      "comment": "Attempt missed. Bukayo Saka (Arsenal) left footed shot from outside the box is high and wide to the left. Assisted by Jurriën Timber.",
+      "time": "88'",
+      "type": "miss",
+      "timestamp": "2026-01-03 19:16:46"
+    },
+    {
+      "player1": "226597",
+      "team1": "3",
+      "comment": "Foul by Gabriel Magalhães (Arsenal).",
+      "time": "90'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 19:17:56"
+    },
+    {
+      "player1": "168636",
+      "team1": "91",
+      "comment": "Enes Ünal (Bournemouth) wins a free kick in the defensive half.",
+      "time": "90'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 19:17:56"
+    },
+    {
+      "team1": "3",
+      "team2": "91",
+      "comment": "Fourth official has announced 6 minutes of added time.",
+      "time": "90'",
+      "type": "added time",
+      "timestamp": "2026-01-03 19:18:49"
+    },
+    {
+      "player1": "195384",
+      "team1": "3",
+      "comment": "Mikel Merino (Arsenal) wins a free kick in the defensive half.",
+      "time": "90'+1'",
+      "type": "free kick won",
+      "timestamp": "2026-01-03 19:18:55"
+    },
+    {
+      "player1": "489888",
+      "team1": "91",
+      "comment": "Foul by Amine Adli (Bournemouth).",
+      "time": "90'+1'",
+      "type": "free kick lost",
+      "timestamp": "2026-01-03 19:18:55"
+    },
+    {
+      "player1": "489888",
+      "team1": "91",
+      "comment": "Amine Adli (Bournemouth) is shown the yellow card for a bad foul.",
+      "time": "90'+1'",
+      "type": "yellow card",
+      "timestamp": "2026-01-03 19:19:01"
+    },
+    {
+      "player1": "205651",
+      "player2": "223340",
+      "team1": "3",
+      "comment": "Attempt saved. Gabriel Jesus (Arsenal) right footed shot from the right side of the box is saved in the centre of the goal by Djordje Petrovic (Bournemouth). Assisted by Bukayo Saka.",
+      "time": "90'+2'",
+      "type": "attempt saved",
+      "timestamp": "2026-01-03 19:19:52"
+    },
+    {
+      "player1": "494521",
+      "team1": "91",
+      "team2": "3",
+      "comment": "Corner, Arsenal. Conceded by Adrien Truffert.",
+      "time": "90'+4'",
+      "type": "corner",
+      "timestamp": "2026-01-03 19:21:57"
+    }
+  ]
+}

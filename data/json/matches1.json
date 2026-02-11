@@ -1,0 +1,279 @@
+{
+  "pagination": {
+    "_limit": 10,
+    "_prev": null,
+    "_next": null
+  },
+  "data": [
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-07 15:00:00",
+      "awayTeam": {
+        "score": 1,
+        "name": "Aston Villa",
+        "id": "7",
+        "halfTimeScore": 1,
+        "shortName": "Aston Villa",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 1,
+        "name": "Bournemouth",
+        "id": "91",
+        "halfTimeScore": 0,
+        "shortName": "Bournemouth",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "Vitality Stadium, Bournemouth",
+      "clock": "95",
+      "resultType": "NormalResult",
+      "matchId": "2562135",
+      "attendance": 11248
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-07 15:00:00",
+      "awayTeam": {
+        "score": 0,
+        "name": "Sunderland",
+        "id": "56",
+        "halfTimeScore": 0,
+        "shortName": "Sunderland",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 3,
+        "name": "Arsenal",
+        "id": "3",
+        "halfTimeScore": 1,
+        "shortName": "Arsenal",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "Emirates Stadium, London",
+      "clock": "97",
+      "resultType": "NormalResult",
+      "matchId": "2562136",
+      "attendance": 60312
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-08 14:00:00",
+      "awayTeam": {
+        "score": 1,
+        "name": "Crystal Palace",
+        "id": "31",
+        "halfTimeScore": 0,
+        "shortName": "Crystal Palace",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 0,
+        "name": "Brighton and Hove Albion",
+        "id": "36",
+        "halfTimeScore": 0,
+        "shortName": "Brighton",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "American Express Stadium, Falmer",
+      "clock": "97",
+      "resultType": "NormalResult",
+      "matchId": "2562137",
+      "attendance": 31179
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-07 15:00:00",
+      "awayTeam": {
+        "score": 2,
+        "name": "West Ham United",
+        "id": "21",
+        "halfTimeScore": 2,
+        "shortName": "West Ham",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 0,
+        "name": "Burnley",
+        "id": "90",
+        "halfTimeScore": 0,
+        "shortName": "Burnley",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "Turf Moor, Burnley",
+      "clock": "96",
+      "resultType": "NormalResult",
+      "matchId": "2562138",
+      "attendance": 21273
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-07 15:00:00",
+      "awayTeam": {
+        "score": 2,
+        "name": "Everton",
+        "id": "11",
+        "halfTimeScore": 0,
+        "shortName": "Everton",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 1,
+        "name": "Fulham",
+        "id": "54",
+        "halfTimeScore": 1,
+        "shortName": "Fulham",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "Craven Cottage, London",
+      "clock": "98",
+      "resultType": "NormalResult",
+      "matchId": "2562139",
+      "attendance": 27155
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-06 20:00:00",
+      "awayTeam": {
+        "score": 1,
+        "name": "Nottingham Forest",
+        "id": "17",
+        "halfTimeScore": 0,
+        "shortName": "Nott'm Forest",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 3,
+        "name": "Leeds United",
+        "id": "2",
+        "halfTimeScore": 2,
+        "shortName": "Leeds",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "Elland Road, Leeds",
+      "clock": "100",
+      "resultType": "NormalResult",
+      "matchId": "2562140",
+      "attendance": 36835
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-08 16:30:00",
+      "awayTeam": {
+        "score": 2,
+        "name": "Manchester City",
+        "id": "43",
+        "halfTimeScore": 0,
+        "shortName": "Man City",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 1,
+        "name": "Liverpool",
+        "id": "14",
+        "halfTimeScore": 0,
+        "shortName": "Liverpool",
+        "redCards": 1
+      },
+      "competition": "Premier League",
+      "ground": "Anfield, Liverpool",
+      "clock": "105",
+      "resultType": "NormalResult",
+      "matchId": "2562141",
+      "attendance": 60336
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-07 12:30:00",
+      "awayTeam": {
+        "score": 0,
+        "name": "Tottenham Hotspur",
+        "id": "6",
+        "halfTimeScore": 0,
+        "shortName": "Spurs",
+        "redCards": 1
+      },
+      "homeTeam": {
+        "score": 2,
+        "name": "Manchester United",
+        "id": "1",
+        "halfTimeScore": 1,
+        "shortName": "Man Utd",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "Old Trafford, Manchester",
+      "clock": "96",
+      "resultType": "NormalResult",
+      "matchId": "2562142",
+      "attendance": 73985
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-07 17:30:00",
+      "awayTeam": {
+        "score": 3,
+        "name": "Brentford",
+        "id": "94",
+        "halfTimeScore": 2,
+        "shortName": "Brentford",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 2,
+        "name": "Newcastle United",
+        "id": "4",
+        "halfTimeScore": 1,
+        "shortName": "Newcastle",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "St. James' Park, Newcastle",
+      "clock": "100",
+      "resultType": "NormalResult",
+      "matchId": "2562143",
+      "attendance": 52032
+    },
+    {
+      "kickoffTimezone": "GMT",
+      "period": "FullTime",
+      "kickoff": "2026-02-07 15:00:00",
+      "awayTeam": {
+        "score": 3,
+        "name": "Chelsea",
+        "id": "8",
+        "halfTimeScore": 3,
+        "shortName": "Chelsea",
+        "redCards": 0
+      },
+      "homeTeam": {
+        "score": 1,
+        "name": "Wolverhampton Wanderers",
+        "id": "39",
+        "halfTimeScore": 0,
+        "shortName": "Wolves",
+        "redCards": 0
+      },
+      "competition": "Premier League",
+      "ground": "Molineux Stadium, Wolverhampton",
+      "clock": "99",
+      "resultType": "NormalResult",
+      "matchId": "2562144",
+      "attendance": 29762
+    }
+  ]
+}

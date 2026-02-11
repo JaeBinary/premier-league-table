@@ -1,0 +1,174 @@
+{
+  "previousMeetings": [
+    {
+      "kickoffTimezone": "GMT",
+      "kickoff": "2026-01-03 17:30:00",
+      "awayTeam": {
+        "score": 3,
+        "team": {
+          "name": "Arsenal",
+          "id": "3",
+          "shortName": "Arsenal",
+          "abbr": "ARS"
+        }
+      },
+      "homeTeam": {
+        "score": 2,
+        "team": {
+          "name": "Bournemouth",
+          "id": "91",
+          "shortName": "Bournemouth",
+          "abbr": "BOU"
+        }
+      },
+      "ground": "Vitality Stadium, Bournemouth",
+      "matchId": "2562085",
+      "kickoffTimezoneString": "Europe/London"
+    },
+    {
+      "kickoffTimezone": "BST",
+      "kickoff": "2025-05-03 17:30:00",
+      "awayTeam": {
+        "score": 2,
+        "team": {
+          "name": "Bournemouth",
+          "id": "91",
+          "shortName": "Bournemouth",
+          "abbr": "BOU"
+        }
+      },
+      "homeTeam": {
+        "score": 1,
+        "team": {
+          "name": "Arsenal",
+          "id": "3",
+          "shortName": "Arsenal",
+          "abbr": "ARS"
+        }
+      },
+      "ground": "Emirates Stadium, London",
+      "matchId": "2444810",
+      "kickoffTimezoneString": "Europe/London"
+    },
+    {
+      "kickoffTimezone": "BST",
+      "kickoff": "2024-10-19 17:30:00",
+      "awayTeam": {
+        "score": 0,
+        "team": {
+          "name": "Arsenal",
+          "id": "3",
+          "shortName": "Arsenal",
+          "abbr": "ARS"
+        }
+      },
+      "homeTeam": {
+        "score": 2,
+        "team": {
+          "name": "Bournemouth",
+          "id": "91",
+          "shortName": "Bournemouth",
+          "abbr": "BOU"
+        }
+      },
+      "ground": "Vitality Stadium, Bournemouth",
+      "matchId": "2444540",
+      "kickoffTimezoneString": "Europe/London"
+    },
+    {
+      "kickoffTimezone": "BST",
+      "kickoff": "2024-05-04 12:30:00",
+      "awayTeam": {
+        "score": 0,
+        "team": {
+          "name": "Bournemouth",
+          "id": "91",
+          "shortName": "Bournemouth",
+          "abbr": "BOU"
+        }
+      },
+      "homeTeam": {
+        "score": 3,
+        "team": {
+          "name": "Arsenal",
+          "id": "3",
+          "shortName": "Arsenal",
+          "abbr": "ARS"
+        }
+      },
+      "ground": "Emirates Stadium, London",
+      "matchId": "2367888",
+      "kickoffTimezoneString": "Europe/London"
+    },
+    {
+      "kickoffTimezone": "BST",
+      "kickoff": "2023-09-30 15:00:00",
+      "awayTeam": {
+        "score": 4,
+        "team": {
+          "name": "Arsenal",
+          "id": "3",
+          "shortName": "Arsenal",
+          "abbr": "ARS"
+        }
+      },
+      "homeTeam": {
+        "score": 0,
+        "team": {
+          "name": "Bournemouth",
+          "id": "91",
+          "shortName": "Bournemouth",
+          "abbr": "BOU"
+        }
+      },
+      "ground": "Vitality Stadium, Bournemouth",
+      "matchId": "2367598",
+      "kickoffTimezoneString": "Europe/London"
+    }
+  ],
+  "headToHead": {
+    "teamACleanSheets": 1,
+    "teamBPenaltiesScored": 3,
+    "teamBGoals": 37,
+    "teamAWins": 3,
+    "teamBCleanSheets": 7,
+    "teamAPenaltiesScored": 3,
+    "teamA": "91",
+    "teamB": "3",
+    "teamAHomeWins": 2,
+    "draws": 2,
+    "teamAGoals": 15,
+    "teamBWins": 11,
+    "teamBHomeWins": 7
+  },
+  "seasonPerformance": {
+    "awayTeam": {
+      "goalsFor": 49,
+      "lost": 3,
+      "won": 17,
+      "cleanSheets": 13,
+      "team_id": "3",
+      "position": 1,
+      "drawn": 5,
+      "goalsAgainst": 17,
+      "startingPosition": 1,
+      "expectedGoals": 44.1497,
+      "played": 25,
+      "points": 56
+    },
+    "homeTeam": {
+      "goalsFor": 43,
+      "lost": 7,
+      "won": 9,
+      "cleanSheets": 6,
+      "team_id": "91",
+      "position": 9,
+      "drawn": 10,
+      "goalsAgainst": 45,
+      "startingPosition": 11,
+      "expectedGoals": 41.3328,
+      "played": 26,
+      "points": 37
+    }
+  }
+}
