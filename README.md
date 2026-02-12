@@ -5,4 +5,5 @@
 c:\GitHub\premier-league-table\.venv\Scripts\python.exe -m pip install requests
 c:\GitHub\premier-league-table\.venv\Scripts\python.exe -m pip install pandas
 c:\GitHub\premier-league-table\.venv\Scripts\python.exe -m pip install rich
+c:\GitHub\premier-league-table\.venv\Scripts\python.exe -m pip install openpyxl
 ```
