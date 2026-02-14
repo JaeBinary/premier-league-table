@@ -8,7 +8,7 @@ console = Console()
 
 # ==================== API 설정 ====================
 COMPETITION_ID = 8  # 프리미어리그
-SEASON_ID = 2025    # 2024-2025 시즌
+SEASON_ID = 2024    # 2024/25 시즌
 
 TEAMS_API_URL = (
     "https://sdp-prem-prod.premier-league-prod.pulselive.com"
