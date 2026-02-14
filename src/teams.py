@@ -97,13 +97,13 @@ def extract_teams_data(teams_json: dict) -> list[dict]:
         stadium_info = team.get('stadium', {})
 
         team_data = {
-            'team_ID': int(team.get('id')),
-            'team_code': team.get('abbr'),
+            'ID': int(team.get('id')),
+            'code': team.get('abbr'),
             'short_name': team.get('shortName'),
-            'team_name': team.get('name'),
+            'name': team.get('name'),
             'country': stadium_info.get('country'),
             'city': stadium_info.get('city'),
-            'stadium_name': stadium_info.get('name'),
+            'stadium': stadium_info.get('name'),
             'capacity': stadium_info.get('capacity'),
             'logo_URL': LOGO_URL_TEMPLATE.format(team_id=team.get('id'))
         }
