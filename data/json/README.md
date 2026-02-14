@@ -8,6 +8,7 @@ erDiagram
     team {
         INT team_id PK "팀ID (id)"
         STRING(3) team_cd "팀코드 (abbr)"
+        STRING team_name "팀명 (team.name)"
         STRING team_sn "팀명 (shortName)"
         STRING stadium_cn "나라 (country)"
         STRING stadium_ct "도시 (city)"
