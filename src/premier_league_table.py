@@ -181,7 +181,12 @@ def fetch_standings_data(session: requests.Session, round_num: int) -> Optional[
     return fetch_with_retry(session, url, context=f"Round {round_num}")
 
 
-def extract_standings_data(standings_json: dict, round_num: int, data_store: dict) -> None:
+def extract_standings_data(
+    standings_json: dict,
+    round_num: int,
+    data_store: dict,
+    team_played_tracker: dict
+) -> None:
     """
     API 응답에서 순위표 정보를 추출하여 data_store에 누적
 
@@ -189,6 +194,7 @@ def extract_standings_data(standings_json: dict, round_num: int, data_store: dic
         standings_json: API로부터 받은 원본 JSON 데이터
         round_num: 현재 라운드 번호
         data_store: 데이터를 누적할 저장소
+        team_played_tracker: 팀별 이전 라운드 played 값을 추적하는 딕셔너리
     """
     tables = standings_json.get('tables', [])
     if not tables:
@@ -206,17 +212,27 @@ def extract_standings_data(standings_json: dict, round_num: int, data_store: dic
             create_stats_dict(overall, round_num, team_id, include_starting_position=True)
         )
 
-        # Home 통계
-        home = entry.get('home', {})
-        data_store[HOME_STATS].append(
-            create_stats_dict(home, round_num, team_id)
-        )
+        # 팀별 추적 데이터 초기화
+        if team_id not in team_played_tracker:
+            team_played_tracker[team_id] = {'home_played': 0, 'away_played': 0}
 
-        # Away 통계
+        # Home 통계 (이전 라운드보다 played가 증가한 경우에만 저장)
+        home = entry.get('home', {})
+        home_played = home.get('played', 0)
+        if home_played > team_played_tracker[team_id]['home_played']:
+            data_store[HOME_STATS].append(
+                create_stats_dict(home, round_num, team_id)
+            )
+            team_played_tracker[team_id]['home_played'] = home_played
+
+        # Away 통계 (이전 라운드보다 played가 증가한 경우에만 저장)
         away = entry.get('away', {})
-        data_store[AWAY_STATS].append(
-            create_stats_dict(away, round_num, team_id)
-        )
+        away_played = away.get('played', 0)
+        if away_played > team_played_tracker[team_id]['away_played']:
+            data_store[AWAY_STATS].append(
+                create_stats_dict(away, round_num, team_id)
+            )
+            team_played_tracker[team_id]['away_played'] = away_played
 
 
 # ==================== 엑셀 저장 ====================
@@ -294,6 +310,9 @@ def main() -> None:
         AWAY_STATS: [],
     }
 
+    # 팀별 played 값 추적용 딕셔너리 (누적 데이터에서 실제 경기 여부 판단용)
+    team_played_tracker = {}
+
     console.print(
         f"\n[bold magenta]═══ Premier League Data Collection "
         f"({SEASON_ID}/{(SEASON_ID + 1) % 100:02d}) ═══[/bold magenta]\n"
@@ -323,7 +342,7 @@ def main() -> None:
                 console.print(f"[yellow][Round {round_num}] 데이터 수집 실패, 건너뜀[/yellow]")
                 continue
 
-            extract_standings_data(standings_json, round_num, data_store)
+            extract_standings_data(standings_json, round_num, data_store, team_played_tracker)
 
         total_rounds = END_ROUND - START_ROUND + 1
         console.print(f"[green]✓ 완료:[/green] {total_rounds}개 라운드 데이터 수집")
