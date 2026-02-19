@@ -332,6 +332,6 @@ This project is licensed under the MIT License.
 
 ## 📚 참고 자료
 
-- [Premier League Official API Documentation](https://www.premierleague.com)
+- [Premier League Officia](https://www.premierleague.com)
 - [Tableau Public Gallery](https://public.tableau.com/gallery)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
