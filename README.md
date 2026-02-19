@@ -72,7 +72,7 @@
 
 ## 📊 대시보드 미리보기
 
-<div class="tableauPlaceholder" id="viz1771463932994" style="position: relative">
+<div class="tableauPlaceholder" id="viz1771466650559" style="position: relative">
   <noscript>
     <a href="#">
       <img alt="Dashboard" src="https://public.tableau.com/static/images/pr/premier-league-table/Dashboard/1_rss.png" style="border: none" />
@@ -92,8 +92,7 @@
     <param name="display_spinner" value="yes" />
     <param name="display_overlay" value="yes" />
     <param name="display_count" value="yes" />
-    <param name="language" value="en-US" />
-  </object>
+    <param name="language" value="ko-KR" /> <param name="filter" value="publish=yes" /> </object>
 </div>
 
 ---
