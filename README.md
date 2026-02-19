@@ -96,29 +96,6 @@
   </object>
 </div>
 
-<script type="text/javascript">
-  var divElement = document.getElementById('viz1771463932994');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-
-  // 화면 크기에 따른 대시보드 사이즈 조절 로직
-  if (divElement.offsetWidth > 800) {
-    vizElement.style.width = '1024px';
-    vizElement.style.height = '795px';
-  } else if (divElement.offsetWidth > 500) {
-    vizElement.style.width = '1024px';
-    vizElement.style.height = '795px';
-  } else {
-    vizElement.style.width = '100%';
-    vizElement.style.height = '1827px';
-  }
-
-  // Tableau API 스크립트 로드 및 삽입
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
-
-
 ---
 
 ## 📦 설치 및 실행
@@ -340,16 +317,6 @@ class StatsData(TypedDict, total=False):
 
 ---
 
-## 🤝 기여 방법
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
 ## 📝 라이선스
 
 This project is licensed under the MIT License.
@@ -358,8 +325,8 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 개발자
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Tableau Public**: [프로필 링크](https://public.tableau.com/app/profile/yourprofile)
+- **GitHub**: [@jaebinary](https://github.com/jaebinary)
+- **Tableau Public**: [프로필 링크](https://public.tableau.com/app/profile/jaebinary)
 
 ---
 
@@ -368,9 +335,3 @@ This project is licensed under the MIT License.
 - [Premier League Official API Documentation](https://www.premierleague.com)
 - [Tableau Public Gallery](https://public.tableau.com/gallery)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
-
----
-
-<p align="center">
-  Made with ❤️ for Premier League Data Analysis
-</p>
