@@ -199,7 +199,7 @@ erDiagram
     }
 
     overall_stats {
-        INT round
+        INT round PK
         INT ID FK
         INT goals_for
         INT goals_against
@@ -213,7 +213,7 @@ erDiagram
     }
 
     home_stats {
-        INT round
+        INT round PK
         INT ID FK
         INT goals_for
         INT goals_against
@@ -226,7 +226,7 @@ erDiagram
     }
 
     away_stats {
-        INT round
+        INT round PK
         INT ID FK
         INT goals_for
         INT goals_against
